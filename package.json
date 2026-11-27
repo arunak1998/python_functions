@@ -1,0 +1,11 @@
+{
+  "name": "pandas-functions-explained",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "data": "python3 scripts/make_data.py",
+    "check": "python3 scripts/check_examples.py"
+  }
+}
