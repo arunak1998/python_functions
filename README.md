@@ -14,7 +14,7 @@ Double-click `index.html`. Nothing to install, no server needed.
    (runs every example with pandas and saves outputs to `assets/content.js` and charts to `assets/charts/`)
 3. Refresh the page.
 
-`python3 scripts/make_data.py` regenerates the practice data in `public/data/`.
+`python3 scripts/make_data.py` regenerates the practice data in `data/`.
 
 ## Put it online
 

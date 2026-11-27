@@ -1,7 +1,7 @@
 """Generate the practice datasets used by every example on the site.
 
 Run once from the project root:  python3 scripts/make_data.py
-Output goes to public/data/ and is loaded into the in-browser Python.
+Output goes to data/. scripts/build_site.py runs the examples against it.
 """
 
 import random
@@ -10,7 +10,7 @@ from pathlib import Path
 
 import pandas as pd
 
-OUT = Path(__file__).resolve().parent.parent / "public" / "data"
+OUT = Path(__file__).resolve().parent.parent / "data"
 
 PRODUCTS = {
     "Laptop": ("Electronics", 55000),

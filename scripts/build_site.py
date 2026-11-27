@@ -19,7 +19,7 @@ from pygments.formatters import HtmlFormatter
 from pygments.lexers import PythonLexer
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "public" / "data"
+DATA_DIR = ROOT / "data"
 CHART_DIR = ROOT / "assets" / "charts"
 OUT_FILE = ROOT / "assets" / "content.js"
 
